@@ -18,8 +18,8 @@ export class StyleBindingDemoComponent implements OnInit {
   highlightText = "blue";
 
   styles = {
-    'color': 'blue',
-    'font-style': 'italic'
+    color: 'blue',
+    fontStyle: 'italic'
   };
 
   constructor() { }

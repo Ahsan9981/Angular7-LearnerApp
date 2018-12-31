@@ -8,6 +8,8 @@ import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-de
 import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-demo.component';
 import { EventBindingDemoComponent } from './event-binding-demo/event-binding-demo.component';
 import { TemplateReferenceVariableDemoComponent } from './template-reference-variable-demo/template-reference-variable-demo.component';
+import { NgIfDirectiveDemoComponent } from './ng-if-directive-demo/ng-if-directive-demo.component';
+import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-switch-directive-demo.component';
 
 
 @NgModule({
@@ -18,6 +20,8 @@ import { TemplateReferenceVariableDemoComponent } from './template-reference-var
     StyleBindingDemoComponent,
     EventBindingDemoComponent,
     TemplateReferenceVariableDemoComponent,
+    NgIfDirectiveDemoComponent,
+    NgSwitchDirectiveDemoComponent,
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-demo.component';
 import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-demo.component';
+import { EventBindingDemoComponent } from './event-binding-demo/event-binding-demo.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { StyleBindingDemoComponent } from './style-binding-demo/style-binding-de
     TestComponent,
     ClassBindingDemoComponent,
     StyleBindingDemoComponent,
+    EventBindingDemoComponent,
   ],
   imports: [
     BrowserModule,

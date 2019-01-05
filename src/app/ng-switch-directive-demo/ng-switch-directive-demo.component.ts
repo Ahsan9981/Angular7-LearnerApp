@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
       <div *ngSwitchCase="'green'"> You picked green </div>
       <div *ngSwitchCase="'blue'"> You picked blue </div>
       <div *ngSwitchDefault> Pick again ! </div>
-  </div>
+    </div>
   `,
   styles: []
 })

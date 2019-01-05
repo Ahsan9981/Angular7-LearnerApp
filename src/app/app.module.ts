@@ -10,6 +10,7 @@ import { EventBindingDemoComponent } from './event-binding-demo/event-binding-de
 import { TemplateReferenceVariableDemoComponent } from './template-reference-variable-demo/template-reference-variable-demo.component';
 import { NgIfDirectiveDemoComponent } from './ng-if-directive-demo/ng-if-directive-demo.component';
 import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-switch-directive-demo.component';
+import { NgForDirectiveDemoComponent } from './ng-for-directive-demo/ng-for-directive-demo.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-sw
     TemplateReferenceVariableDemoComponent,
     NgIfDirectiveDemoComponent,
     NgSwitchDirectiveDemoComponent,
+    NgForDirectiveDemoComponent,
   ],
   imports: [
     BrowserModule,

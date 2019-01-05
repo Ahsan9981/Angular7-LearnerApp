@@ -28,4 +28,11 @@
 <hr>
 <ng-for-directive-demo></ng-for-directive-demo>
 
+<hr>
+<component-interaction-demo (childEvent)="message=$event" [parentData]='name'></component-interaction-demo>
+{{message}}
+
+<hr>
+
+
 <router-outlet></router-outlet>

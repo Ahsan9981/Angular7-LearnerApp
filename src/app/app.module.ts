@@ -11,6 +11,7 @@ import { TemplateReferenceVariableDemoComponent } from './template-reference-var
 import { NgIfDirectiveDemoComponent } from './ng-if-directive-demo/ng-if-directive-demo.component';
 import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-switch-directive-demo.component';
 import { NgForDirectiveDemoComponent } from './ng-for-directive-demo/ng-for-directive-demo.component';
+import { ComponentInteractionDemoComponent } from './component-interaction-demo/component-interaction-demo.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { NgForDirectiveDemoComponent } from './ng-for-directive-demo/ng-for-dire
     NgIfDirectiveDemoComponent,
     NgSwitchDirectiveDemoComponent,
     NgForDirectiveDemoComponent,
+    ComponentInteractionDemoComponent,
   ],
   imports: [
     BrowserModule,

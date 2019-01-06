@@ -13,6 +13,8 @@ import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-sw
 import { NgForDirectiveDemoComponent } from './ng-for-directive-demo/ng-for-directive-demo.component';
 import { ComponentInteractionDemoComponent } from './component-interaction-demo/component-interaction-demo.component';
 import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
+import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
     NgForDirectiveDemoComponent,
     ComponentInteractionDemoComponent,
     PipeDemoComponent,
+    EmployeeListComponent,
+    EmployeeDetailComponent,
   ],
   imports: [
     BrowserModule,

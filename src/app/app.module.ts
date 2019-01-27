@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-demo.component';
@@ -14,8 +14,8 @@ import { NgSwitchDirectiveDemoComponent } from './ng-switch-directive-demo/ng-sw
 import { NgForDirectiveDemoComponent } from './ng-for-directive-demo/ng-for-directive-demo.component';
 import { ComponentInteractionDemoComponent } from './component-interaction-demo/component-interaction-demo.component';
 import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
+
 
 
 @NgModule({
@@ -31,8 +31,8 @@ import { EmployeeDetailComponent } from './employee-detail/employee-detail.compo
     NgForDirectiveDemoComponent,
     ComponentInteractionDemoComponent,
     PipeDemoComponent,
-    EmployeeListComponent,
     EmployeeDetailComponent,
+    routingComponents
   ],
   imports: [
     BrowserModule,

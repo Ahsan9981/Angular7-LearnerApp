@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { ClassBindingDemoComponent } from './class-binding-demo/class-binding-demo.component';
@@ -31,8 +31,7 @@ import { EmployeeDetailComponent } from './employee-detail/employee-detail.compo
     NgForDirectiveDemoComponent,
     ComponentInteractionDemoComponent,
     PipeDemoComponent,
-    EmployeeDetailComponent,
-    routingComponents
+    EmployeeDetailComponent
   ],
   imports: [
     BrowserModule,
